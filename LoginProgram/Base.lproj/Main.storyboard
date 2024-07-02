@@ -106,17 +106,9 @@
                                     <constraint firstAttribute="height" constant="29" id="VH0-xF-mas"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="24"/>
-                                <color key="textColor" red="0.18431372549019609" green="0.20000000000000001" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.09436368297318927" green="0.20000000000000001" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ow-Ya-qX3">
-                                <rect key="frame" x="0.0" y="738" width="393" height="34"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Выйти из аккаунта"/>
-                                <connections>
-                                    <action selector="sigOut:" destination="6Wr-7C-A2S" eventType="touchUpInside" id="wrT-2O-ZsP"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Основная информация" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2v-i4-EX9">
                                 <rect key="frame" x="89.666666666666686" y="288" width="214" height="19.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="16"/>
@@ -273,6 +265,14 @@
                                 <rect key="frame" x="-71" y="572" width="512" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ow-Ya-qX3">
+                                <rect key="frame" x="105" y="59" width="393" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Выйти из аккаунта"/>
+                                <connections>
+                                    <action selector="sigOut:" destination="6Wr-7C-A2S" eventType="touchUpInside" id="wrT-2O-ZsP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y8c-wV-dZs"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.95686274510000002" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
